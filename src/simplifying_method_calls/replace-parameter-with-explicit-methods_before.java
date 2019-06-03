@@ -1,11 +1,7 @@
-void setValue(String name, int value) {
-  if (name.equals("height")) {
+void setHeight(double value){
     height = value;
-    return;
-  }
-  if (name.equals("width")) {
-    width = value;
-    return;
-  }
-  Assert.shouldNeverReachHere();
+}
+
+void setWidth(double value){
+    height = value;
 }
